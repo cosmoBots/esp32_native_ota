@@ -135,8 +135,8 @@ CONFIG_PARTITION_TABLE_MD5=y
 #
 # Example Configuration
 #
-CONFIG_EXAMPLE_FIRMWARE_UPG_URL="http://raw.githubusercontent.com/cosmoBots/esp32_native_ota/main/firmware.bin"
-CONFIG_EXAMPLE_SKIP_COMMON_NAME_CHECK=y
+CONFIG_EXAMPLE_FIRMWARE_UPG_URL="http://csys.cosmobots.eu:8080/txinto/mypublicfiles/-/raw/master/firmware.bin?inline=false"
+# CONFIG_EXAMPLE_SKIP_COMMON_NAME_CHECK is not set
 # CONFIG_EXAMPLE_SKIP_VERSION_CHECK is not set
 CONFIG_EXAMPLE_GPIO_DIAGNOSTIC=4
 CONFIG_EXAMPLE_OTA_RECV_TIMEOUT=5000
